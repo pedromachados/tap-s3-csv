@@ -13,7 +13,7 @@ setup(name='tap-s3-csv',
           'boto3==1.4.4',
           'singer-python>=5.0.0,<6.0.0',
           'voluptuous==0.10.5',
-          'xlrd==1.0.0',
+          'xlrd>=1.0.0,<2.0.0',
       ],
       entry_points='''
           [console_scripts]
